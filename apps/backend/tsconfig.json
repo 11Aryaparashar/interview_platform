@@ -7,6 +7,7 @@
     "moduleDetection": "force",
     "jsx": "react-jsx",
     "allowJs": true,
+        "noImplicitAny": false,
 
     // Bundler mode
     "moduleResolution": "bundler",
@@ -20,10 +21,15 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
+    
 
     // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
+
+    
+
+
   }
 }
