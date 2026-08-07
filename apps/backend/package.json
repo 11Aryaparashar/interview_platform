@@ -31,7 +31,7 @@
     "zod-to-json-schema": "^3.25.2"
   },
   "scripts": {
-  "build": "prisma generate",
+  "build": "npx prisma generate",
   "start": "bun run index.ts"
 }
 }
